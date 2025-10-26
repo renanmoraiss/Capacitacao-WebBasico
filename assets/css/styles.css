@@ -91,6 +91,15 @@ header h1 {
     font-weight: 500;
 }
 
+.nav-links {
+    transition: transform 500ms;
+}
+
+.nav-links:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
 @media screen and (min-width: 1024px) {
     header nav {
         display: flex;
@@ -293,6 +302,14 @@ header h1 {
 .conhecimentos-list > li {
     width: 72px;
     height: 72px;
+}
+
+.tech-list {
+    transition: transform 500ms;
+}
+
+.tech-list:hover {
+    transform: translateY(-3%);
 }
 
 @media screen and (min-width: 1024px) {
