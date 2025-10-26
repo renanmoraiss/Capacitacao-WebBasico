@@ -7,7 +7,7 @@
     line-height: 18px;
     font-family: 'Poppins', Helvetica, sans-serif;
     /* Variáveis para cores */
-    --clr-primaty: #e02d2d;
+    --clr-primary: #e02d2d;
     --clr-black: #191919;
     --clr-white: #eef2f5;
     color: var(--clr-black);
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background-color: var(--clr-primaty);
+    background-color: var(--clr-primary);
     width: fit-content;
     padding: 12px 18px;
     border-radius: 6px;
@@ -124,7 +124,6 @@ header h1 {
     justify-content: center;
     background-image: url('/assets/img/DarthMobile-IMG.png');
     background-repeat: no-repeat;
-    background-position: rem;
     background-size: 300px;
 }
 
@@ -281,7 +280,7 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--clr-primaty);
+    background-color: var(--clr-primary);
     padding: 16px;
     font-size: 18px;
     font-weight: 600;
@@ -388,7 +387,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--clr-primaty);
+    background-color: var(--clr-primary);
     padding-block: 1.5rem;
 }
 
